@@ -4,7 +4,7 @@ const functions = require("firebase-functions/v1");
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const BookingController = require('./controllers/bokking.controller');
+const BookingController = require('./controllers/booking.controller');
 
 const app = express();
 app.use(cors({ origin: true }));
